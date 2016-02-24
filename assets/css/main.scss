@@ -1,6 +1,9 @@
 @import "tools/normalize";
 @import "tools/bourbon/bourbon";
 
-body {
-    background: #333;
-}
+@import "base/vars";
+@import "base/base";
+
+@import "modules/header";
+
+@import "layouts/home";
